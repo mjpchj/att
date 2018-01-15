@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* Layout Small Screens */
+
+body { 
+	
+        height: 100%;
+        }
+
+.page {
+	margin: auto;display: block;
+
+ 	}
+
+section { 
+	height: 103px; 
+	background: url(../images/home_small.png) no-repeat;
+	background-position: center; 
+margin: auto;
+	}
+	
+nav.main {
+	display: none;
+	}
+
+
+nav.small {
+        display: block;
+	margin: auto;
+        width: 290px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	text-align: middle;
+        font-size: 12px;
+	padding: 0px;
+	background-color: #fff;
+	}
+
+nav.small a {
+   
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	
+	}
+
+
+#gigs {
+	margin-left: auto;
+	margin-right: auto;
+        width: 290px;
+        }
