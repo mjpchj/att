@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* Global Styles */
+
+body {
+	background-color: #e6e6e6;
+}
+
+.page {
+	max-width: 980px;
+  	margin-left: auto ;
+  	margin-right: auto ;
+  	position: relative; 
+}
+
+nav {
+	text-align:center;
+	}
+

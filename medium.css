@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/* Layout (global rules for all sizes) */
+
+section { 
+	height: 438px; 
+	background: url(../images/home_med.png) no-repeat;
+	background-position: center; 
+	margin: 10px 20px 0px 20px;
+	 }
+	
+nav {
+padding-top: 18px;
+width: 100%;
+display: table;
+font-size: 12px;
+        }	
+
+nav a:hover { 
+   
+	color: #000
+	}
+	
+a.one {
+	background-color: #2e2e2e;
+}
+
+a.two {
+	background-color: #424242;
+}
+
+a.three {
+	background-color: #585858;
+}
+
+a.four {
+	background-color: #6e6e6e;
+}
+
+a.five {
+	background-color: #848484;
+}
+
+a.six {
+	background-color: #a4a4a4;
+}
+
+a.seven{
+	background-color: #bdbdbd;
+}
+
+
+nav a {
+padding: 8px;
+padding-right: 19px;        
+        font-family: Lato;
+        color: #fff;
+text-align: left;
+text-decoration: none;
+
+       }
+
+
+
+nav.small {
+	display: none;
+	}
+
+#gigs {
+	width: 657px;
+	padding-top: 125px;
+	margin-left: auto ;
+ 	margin-right: auto ;
+	}
+
+#boab {
+    width: 642px;
+	margin-top: 6px;
+	margin-left: auto;
+    margin-right: auto;
+	padding: 8px;
+    font-family: Lato;
+    color: #fff;
+	text-align: left;
+	text-decoration: none;
+	background-color: #a4a4a4;
+	}
+
+
+#contact {
+    width:642px;
+	margin-top: 6px;
+	margin-left: auto;
+    margin-right: auto;
+	padding: 8px;
+    font-family: Lato;
+    color: #fff;
+	text-align: left;
+	text-decoration: none;
+	background-color: #bdbdbd;
+	}
